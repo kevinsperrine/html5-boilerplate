@@ -1,5 +1,5 @@
 [HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation
-table of contents](README.md)
+table of contents](TOC.md)
 
 # The HTML
 
@@ -38,8 +38,8 @@ spec](http://www.whatwg.org/specs/web-apps/current-work/complete/semantics.html#
 (4.2.5.5 Specifying the document's character encoding), add your charset
 declaration early (before any ASCII art ;) to avoid a potential
 [encoding-related security
-issue](http://code.google.com/p/doctype/wiki/ArticleUtf7) in IE. It should come
-in the first [1024
+issue](http://code.google.com/p/doctype-mirror/wiki/ArticleUtf7) in IE. It
+should come in the first [1024
 bytes](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset).
 
 The charset should also come before the `<title>` tag, due to [potential XSS
@@ -144,7 +144,7 @@ you intended to support IE 6, then you should remove the snippet of code.
 
 The Google CDN version of the jQuery JavaScript library is referenced towards
 the bottom of the page using a protocol-independent path (read more about this
-in the [FAQ](faq.md). A local fallback of jQuery is included for rare instances
+in the [FAQ](faq.md)). A local fallback of jQuery is included for rare instances
 when the CDN version might not be available, and to facilitate offline
 development.
 
